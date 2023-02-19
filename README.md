@@ -38,3 +38,5 @@ go run main.go
 - The post endpoint will take a file `csv` in request body to parse the data into a well formatted table. A reference csv file for testing is available [here](https://docs.google.com/spreadsheets/d/16qgMcltFv33oEnwY6kTjNclWhcbsnEOsw-AtAcAZ9uU/edit?usp=sharing)
 
 Complete details related to application endpoints, request body and sample response can be found in [this Postman Collection](https://api.postman.com/collections/17353116-e03d4d96-aecc-41ce-a90a-27a8e432a310?access_key=PMAT-01GSMXA9A5RQ85P5H4KMFKWF4A).
+
+`Since it is deployed on a free tier so there can be delay in initial request due to high latency and cold start`
